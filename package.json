@@ -1,6 +1,6 @@
 {
-   "name": "@itsliaaa/baileys",
-   "version": "0.3.18-final",
+   "name": "@pathumtech/baileys",
+   "version": "1.0.4",
    "description": "Enhanced Baileys v7 with fixes for newsletter media uploads, plus support for interactive messages, albums, and additional message types.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
@@ -10,10 +10,6 @@
    },
    "engines": {
       "node": ">=20.0.0"
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/itsliaaa/baileys.git"
    },
    "files": [
       "lib/**/*",
@@ -32,9 +28,11 @@
       "whatsapp-bot",
       "whatsapp-web"
    ],
-   "homepage": "https://github.com/itsliaaa/baileys#readme",
-   "author": "Lia Wynn",
+   "author": "pathumtech",
    "license": "MIT",
+   "publishConfig": {
+      "access": "public"
+   },
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
       "@cacheable/node-cache": "^1.4.0",
